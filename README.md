@@ -8,5 +8,6 @@ Bounding Box Detection: Bounding boxes are provided for each frame, along with c
 Object Association: Objects are tracked by comparing the center distances of bounding boxes across frames, ensuring the same object is linked.
 Visualization: A unique color and class label are assigned to each tracked object, drawn on the video as rectangles and text annotations.
 Output Video Creation: The annotated frames are compiled into a video showcasing the tracking results.
+
 Why:
 Object tracking is crucial for understanding object behavior and movement in video analysis tasks such as surveillance, autonomous driving, and sports analytics. This project demonstrates a simple yet effective approach to tracking objects using class labels and spatial proximity.
